@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
+-->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        id        = "io.cordova.helloCordova"
+        version   = "2.0.0">
+    <name>Hello Cordova</name>
+
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+
+    <author href="http://cordova.io" email="dev@cordova.apache.org">
+        Apache Cordova Team
+    </author>
+
+    <access origin="*"/>
+
+    <!-- <content src="http://mysite.com/myapp.html" /> for external pages -->
+    <content src="index.html" />
+
+    <!-- Preferences for iOS -->
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableLocation" value="false" /><!-- DEPRECATED -->
+    <preference name="EnableViewportScale" value="true" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value=".25" />
+    <preference name="HideKeyboardFormAccessoryBar" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="KeyboardShrinksView" value="false" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="TopActivityIndicator" value="gray" />
+
+
+    <feature name="Geolocation">
+      <param name="ios-package" value="CDVLocation"/>
+    </feature>
+    <feature name="Device">
+      <param name="ios-package" value="CDVDevice"/>
+    </feature>
+    <feature name="Accelerometer">
+      <param name="ios-package" value="CDVAccelerometer"/>
+    </feature>
+    <feature name="Compass">
+      <param name="ios-package" value="CDVLocation"/>
+    </feature>
+    <feature name="Media">
+      <param name="ios-package" value="CDVSound"/>
+    </feature>
+    <feature name="Camera">
+      <param name="ios-package" value="CDVCamera"/>
+    </feature>
+    <feature name="Contacts">
+      <param name="ios-package" value="CDVContacts"/>
+    </feature>
+    <feature name="File">
+      <param name="ios-package"  value="CDVFile"/>
+    </feature>
+    <feature name="NetworkStatus">
+      <param name="ios-package" value="CDVConnection"/>
+    </feature>
+    <feature name="Notification">
+      <param name="ios-package" value="CDVNotification"/>
+    </feature>
+    <feature name="FileTransfer">
+      <param name="ios-package" value="CDVFileTransfer"/>
+    </feature>
+    <feature name="Capture">
+      <param name="ios-package" value="CDVCapture"/>
+    </feature>
+    <feature name="Battery">
+      <param name="ios-package" value="CDVBattery"/>
+    </feature>
+    <feature name="SplashScreen">
+      <param name="ios-package" value="CDVSplashScreen"/>
+    </feature>
+    <feature name="Echo">
+      <param name="ios-package" value="CDVEcho"/>
+    </feature>
+    <feature name="Globalization">
+      <param name="ios-package" value="CDVGlobalization"/>
+    </feature>
+    <feature name="InAppBrowser">
+      <param name="ios-package" value="CDVInAppBrowser"/>
+    </feature>
+    <feature name="Logger">
+      <param name="ios-package" value="CDVLogger"/>
+    </feature>
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage"/>
+    </feature>
+    
+    <!-- NS-Meap 服务 -->
+    <feature name="NSMeapWebRequest">
+        <param name="ios-package" value="NSMeapWebRequestPlugin"/>
+    </feature>
+    <feature name="NSMeapDatePicker">
+        <param name="ios-package" value="NSMeapDatePickerPlugin"/>
+    </feature>
+    <feature name="NSMeapCalendar">
+        <param name="ios-package" value="NSMeapCalendarPlugin"/>
+    </feature>
+    <feature name="NSMeapSSO">
+        <param name="ios-package" value="NSMeapSSOServerPlugin"/>
+    </feature>
+    <feature name="NSMeapMessage">
+        <param name="ios-package" value="NSMeapMessagePlugin"/>
+    </feature>
+    <feature name="NSMeapDataSecurity">
+        <param name="ios-package" value="NSMeapDataSecurityPlugin"/>
+    </feature>
+    <feature name="NSMeapTelPhone">
+        <param name="ios-package" value="NSMeapTelPhonePlugin"/>
+    </feature>
+    <feature name="NSMeapAudioRecord">
+        <param name="ios-package" value="NSMeapAudioRecordPlugin"/>
+    </feature>
+    <feature name="NSMeapQRCode">
+        <param name="ios-package" value="NSMeapQRCodePlugin"/>
+    </feature>
+    <feature name="DataSecurity">
+        <param name="ios-package" value="NSMDataSecurityPlugin"/>
+    </feature>
+    <feature name="NSMeapNetworkStatus">
+        <param name="ios-package" value="NSMeapNetworkStatusPlugin"/>
+    </feature>
+    <feature name="NSMeapMedia">
+        <param name="ios-package" value="NSMeapMediaPlugin"/>
+    </feature>
+    <feature name="NSMeapFileManager">
+        <param name="ios-package" value="NSMeapFileManagerPlugin"/>
+    </feature>
+    <feature name="NSMeapFileUpload">
+        <param name="ios-package" value="NSMeapFileManagerPlugin"/>
+    </feature>
+    <feature name="NSMeapFileDowload">
+        <param name="ios-package" value="NSMeapFileManagerPlugin"/>
+    </feature>
+    <feature name="NSMeapCheckAppUpdate">
+        <param name="ios-package" value="NSMeapCheckAppUpdatePlugin"/>
+    </feature>
+    <feature name="NSMeapCheckWebUpdate">
+        <param name="ios-package" value="NSMeapCheckWebUpdatePlugin"/>
+    </feature>
+    <feature name="NSMeapGetCaptcha">
+        <param name="ios-package" value="NSMeapGetCaptchaPlugin"/>
+    </feature>
+    <feature name="NSMeapConfigIP">
+        <param name="ios-package" value="NSMeapConfigIPPlugin"/>
+    </feature>
+    <feature name="NSMeapIMate">
+        <param name="ios-package" value="NSMeapIMatePlugin"/>
+    </feature>
+    <feature name="NSMeapPlugin">
+        <param name="ios-package" value="NSMeapPlugin"/>
+    </feature>
+    <feature name="NSMeapScanBigImage">
+        <param name="ios-package" value="NSMeapScanBigImagePlugin"/>
+    </feature>
+    监听屏幕触摸
+    <feature name="NSMeapScreemTimer">
+        <param name="ios-package" value="NSMeapScreemTimerPlugin"/>
+    </feature>
+    挑战app插件
+    <feature name="NSMeapJumpAPP">
+        <param name="ios-package" value="NSMeapJumpAPPPlugin"/>
+    </feature>
+    安装app插件
+    <feature name="NSMeapInstallAPP">
+        <param name="ios-package" value="NSMeapInstallAPPPlugin"/>
+    </feature>
+    浏览附件
+    <feature name="NSMeapScanOfficeFile">
+        <param name="ios-package" value="NSMeapScanOfficeFilePlugin"/>
+    </feature>
+    用第三方浏览附件插件
+    <feature name="NSMeapEditOfficeFile">
+        <param name="ios-package" value="NSMeapEditOfficeFilePlugin"/>
+    </feature>
+    检测app是否存在
+    <feature name="NSMeapCheckAPPExist">
+        <param name="ios-package" value="NSMeapCheckAPPExistPlugin"/>
+    </feature>
+    结束程序
+    <feature name="NSMeapKillAPP">
+        <param name="ios-package" value="NSMeapKillAPPPlugin"/>
+    </feature>
+    屏幕分辨率
+    <feature name="NSMeapScreenResolution">
+        <param name="ios-package" value="NSMeapScreenResolutionPlugin"/>
+    </feature>
+    密码锁
+    <feature name="NSMeapPasswordLock">
+        <param name="ios-package" value="NSMeapPasswordLockPlugin"/>
+    </feature>
+    打包插件
+    <feature name="NSMeapZip">
+        <param name="ios-package" value="NSMeapZipPlugin"/>
+    </feature>
+    
+    <feature name="NSMeapWebViewServer">
+        <param name="ios-package" value="NSMeapWebViewServerPlugin"/>
+    </feature>
+    <!-- Deprecated plugins element. REmove in 3.0 -->
+    <plugins>
+    </plugins>
+</widget>

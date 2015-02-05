@@ -1,0 +1,1298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F44065F218E9124100918E9E /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44065F118E9124100918E9E /* OpenAL.framework */; };
+		F44065F418E9124100918E9E /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44065F318E9124100918E9E /* AddressBook.framework */; };
+		F44065F618E9124100918E9E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44065F518E9124100918E9E /* AssetsLibrary.framework */; };
+		F44065F818E9124100918E9E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44065F718E9124100918E9E /* CoreMedia.framework */; };
+		F44065FA18E9124100918E9E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44065F918E9124100918E9E /* AudioToolbox.framework */; };
+		F44065FC18E9124100918E9E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44065FB18E9124100918E9E /* AVFoundation.framework */; };
+		F44065FE18E9124100918E9E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44065FD18E9124100918E9E /* CoreLocation.framework */; };
+		F440660018E9124100918E9E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44065FF18E9124100918E9E /* MobileCoreServices.framework */; };
+		F440660218E9124100918E9E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440660118E9124100918E9E /* SystemConfiguration.framework */; };
+		F440660418E9124100918E9E /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440660318E9124100918E9E /* AddressBookUI.framework */; };
+		F440660618E9124100918E9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440660518E9124100918E9E /* UIKit.framework */; };
+		F440660818E9124100918E9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440660718E9124100918E9E /* Foundation.framework */; };
+		F440660A18E9124100918E9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440660918E9124100918E9E /* CoreGraphics.framework */; };
+		F440660C18E9124100918E9E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440660B18E9124100918E9E /* ImageIO.framework */; };
+		F440660E18E9124100918E9E /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440660D18E9124100918E9E /* EventKit.framework */; };
+		F440661018E9124100918E9E /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440660F18E9124100918E9E /* EventKitUI.framework */; };
+		F440661218E9124100918E9E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440661118E9124100918E9E /* QuartzCore.framework */; };
+		F440661418E9124100918E9E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440661318E9124100918E9E /* CoreVideo.framework */; };
+		F440661618E9124100918E9E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440661518E9124100918E9E /* MessageUI.framework */; };
+		F440661818E9124100918E9E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440661718E9124100918E9E /* MediaPlayer.framework */; };
+		F440661A18E9124100918E9E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440661918E9124100918E9E /* Security.framework */; };
+		F440661C18E9124100918E9E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440661B18E9124100918E9E /* CoreTelephony.framework */; };
+		F440661E18E9124100918E9E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440661D18E9124100918E9E /* CFNetwork.framework */; };
+		F440662018E9124100918E9E /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440661F18E9124100918E9E /* ExternalAccessory.framework */; };
+		F440662618E9124100918E9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F440662418E9124100918E9E /* InfoPlist.strings */; };
+		F440662818E9124100918E9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F440662718E9124100918E9E /* main.m */; };
+		F440662F18E9124100918E9E /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = F440662E18E9124100918E9E /* NSObject+SBJson.m */; };
+		F440663218E9124100918E9E /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F440663118E9124100918E9E /* SBJsonParser.m */; };
+		F440663518E9124100918E9E /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F440663418E9124100918E9E /* SBJsonStreamParser.m */; };
+		F440663818E9124100918E9E /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = F440663718E9124100918E9E /* SBJsonStreamParserAccumulator.m */; };
+		F440663B18E9124100918E9E /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F440663A18E9124100918E9E /* SBJsonStreamParserAdapter.m */; };
+		F440663E18E9124100918E9E /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = F440663D18E9124100918E9E /* SBJsonStreamParserState.m */; };
+		F440664118E9124100918E9E /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F440664018E9124100918E9E /* SBJsonStreamWriter.m */; };
+		F440664418E9124100918E9E /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = F440664318E9124100918E9E /* SBJsonStreamWriterAccumulator.m */; };
+		F440664718E9124100918E9E /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = F440664618E9124100918E9E /* SBJsonStreamWriterState.m */; };
+		F440664A18E9124100918E9E /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = F440664918E9124100918E9E /* SBJsonTokeniser.m */; };
+		F440664D18E9124100918E9E /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = F440664C18E9124100918E9E /* SBJsonUTF8Stream.m */; };
+		F440665018E9124100918E9E /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F440664F18E9124100918E9E /* SBJsonWriter.m */; };
+		F440665418E9124100918E9E /* DSLCalendarDayCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = F440665318E9124100918E9E /* DSLCalendarDayCalloutView.m */; };
+		F440665618E9124100918E9E /* DSLCalendarDayCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F440665518E9124100918E9E /* DSLCalendarDayCalloutView.xib */; };
+		F440665918E9124100918E9E /* DSLCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F440665818E9124100918E9E /* DSLCalendarDayView.m */; };
+		F440665C18E9124100918E9E /* DSLCalendarMonthSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F440665B18E9124100918E9E /* DSLCalendarMonthSelectorView.m */; };
+		F440665E18E9124100918E9E /* DSLCalendarMonthSelectorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F440665D18E9124100918E9E /* DSLCalendarMonthSelectorView.xib */; };
+		F440666118E9124100918E9E /* DSLCalendarMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = F440666018E9124100918E9E /* DSLCalendarMonthView.m */; };
+		F440666418E9124100918E9E /* DSLCalendarRange.m in Sources */ = {isa = PBXBuildFile; fileRef = F440666318E9124100918E9E /* DSLCalendarRange.m */; };
+		F440666718E9124100918E9E /* DSLCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F440666618E9124100918E9E /* DSLCalendarView.m */; };
+		F440666A18E9124100918E9E /* NSDate+DSLCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F440666918E9124100918E9E /* NSDate+DSLCalendarView.m */; };
+		F440666D18E9124100918E9E /* DSLCalendar-nextMonth.png in Resources */ = {isa = PBXBuildFile; fileRef = F440666C18E9124100918E9E /* DSLCalendar-nextMonth.png */; };
+		F440666F18E9124100918E9E /* DSLCalendar-nextMonth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F440666E18E9124100918E9E /* DSLCalendar-nextMonth@2x.png */; };
+		F440667118E9124100918E9E /* DSLCalendar-previousMonth.png in Resources */ = {isa = PBXBuildFile; fileRef = F440667018E9124100918E9E /* DSLCalendar-previousMonth.png */; };
+		F440667318E9124100918E9E /* DSLCalendar-previousMonth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F440667218E9124100918E9E /* DSLCalendar-previousMonth@2x.png */; };
+		F440667518E9124100918E9E /* DSLCalendarDayCallout.png in Resources */ = {isa = PBXBuildFile; fileRef = F440667418E9124100918E9E /* DSLCalendarDayCallout.png */; };
+		F440667718E9124100918E9E /* DSLCalendarDayCallout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F440667618E9124100918E9E /* DSLCalendarDayCallout@2x.png */; };
+		F440667918E9124100918E9E /* DSLCalendarDaySelection-left.png in Resources */ = {isa = PBXBuildFile; fileRef = F440667818E9124100918E9E /* DSLCalendarDaySelection-left.png */; };
+		F440667B18E9124100918E9E /* DSLCalendarDaySelection-left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F440667A18E9124100918E9E /* DSLCalendarDaySelection-left@2x.png */; };
+		F440667D18E9124100918E9E /* DSLCalendarDaySelection-middle.png in Resources */ = {isa = PBXBuildFile; fileRef = F440667C18E9124100918E9E /* DSLCalendarDaySelection-middle.png */; };
+		F440667F18E9124100918E9E /* DSLCalendarDaySelection-middle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F440667E18E9124100918E9E /* DSLCalendarDaySelection-middle@2x.png */; };
+		F440668118E9124100918E9E /* DSLCalendarDaySelection-right.png in Resources */ = {isa = PBXBuildFile; fileRef = F440668018E9124100918E9E /* DSLCalendarDaySelection-right.png */; };
+		F440668318E9124100918E9E /* DSLCalendarDaySelection-right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F440668218E9124100918E9E /* DSLCalendarDaySelection-right@2x.png */; };
+		F440668518E9124100918E9E /* DSLCalendarDaySelection.png in Resources */ = {isa = PBXBuildFile; fileRef = F440668418E9124100918E9E /* DSLCalendarDaySelection.png */; };
+		F440668718E9124100918E9E /* DSLCalendarDaySelection@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F440668618E9124100918E9E /* DSLCalendarDaySelection@2x.png */; };
+		F440668918E9124100918E9E /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F440668818E9124100918E9E /* config.xml */; };
+		F440668C18E9124100918E9E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F440668B18E9124100918E9E /* libiconv.dylib */; };
+		F440668F18E9124100918E9E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F440668E18E9124100918E9E /* MainViewController.m */; };
+		F440669118E9124100918E9E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F440669018E9124100918E9E /* MainViewController.xib */; };
+		F44066C318E9124200918E9E /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F44066C218E9124200918E9E /* libCordova.a */; };
+		F44066C618E9124200918E9E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F44066C518E9124200918E9E /* Reachability.m */; };
+		F44066CB18E9124200918E9E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F44066C918E9124200918E9E /* Localizable.strings */; };
+		F44066CF18E9124200918E9E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F44066CD18E9124200918E9E /* Localizable.strings */; };
+		F44066D318E9124200918E9E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F44066D118E9124200918E9E /* Localizable.strings */; };
+		F44066D718E9124200918E9E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F44066D518E9124200918E9E /* Localizable.strings */; };
+		F44066D918E9124200918E9E /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F44066D818E9124200918E9E /* Capture.bundle */; };
+		F44066DB18E9124200918E9E /* NSMeapGeneralComponets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44066DA18E9124200918E9E /* NSMeapGeneralComponets.framework */; };
+		F44066DD18E9124200918E9E /* NSMeapGeneralComponets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F44066DC18E9124200918E9E /* NSMeapGeneralComponets.bundle */; };
+		F44066DF18E9124200918E9E /* NSMeapBusinessComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44066DE18E9124200918E9E /* NSMeapBusinessComponents.framework */; };
+		F44066E118E9124200918E9E /* NSMeapBusinessComponents.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F44066E018E9124200918E9E /* NSMeapBusinessComponents.bundle */; };
+		F44066E318E9124200918E9E /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F44066E218E9124200918E9E /* libsqlite3.0.dylib */; };
+		F44066E518E9124300918E9E /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F44066E418E9124300918E9E /* libz.1.2.5.dylib */; };
+		F44066E718E9124400918E9E /* NSMeap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44066E618E9124400918E9E /* NSMeap.framework */; };
+		F44066E918E9124400918E9E /* HXiMateSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44066E818E9124400918E9E /* HXiMateSDK.framework */; };
+		F44066ED18E9124400918E9E /* NSMeapCalendarPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F44066EC18E9124400918E9E /* NSMeapCalendarPlugin.m */; };
+		F44066F018E9124400918E9E /* NSMeapQRCodePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F44066EF18E9124400918E9E /* NSMeapQRCodePlugin.m */; };
+		F44066F318E9124400918E9E /* NSMeapCheckAppUpdatePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F44066F218E9124400918E9E /* NSMeapCheckAppUpdatePlugin.m */; };
+		F44066F618E9124400918E9E /* NSMeapCheckWebUpdatePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F44066F518E9124400918E9E /* NSMeapCheckWebUpdatePlugin.m */; };
+		F44066F918E9124400918E9E /* NSMeapConfigIPPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F44066F818E9124400918E9E /* NSMeapConfigIPPlugin.m */; };
+		F44066FC18E9124400918E9E /* NSMeapDataSecurityPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F44066FB18E9124400918E9E /* NSMeapDataSecurityPlugin.m */; };
+		F44066FF18E9124400918E9E /* NSMeapDatePickerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F44066FE18E9124400918E9E /* NSMeapDatePickerPlugin.m */; };
+		F440670218E9124400918E9E /* NSMeapFileManagerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440670118E9124400918E9E /* NSMeapFileManagerPlugin.m */; };
+		F440670518E9124400918E9E /* NSMeapGetCaptchaPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440670418E9124400918E9E /* NSMeapGetCaptchaPlugin.m */; };
+		F440670818E9124400918E9E /* NSMeapIMatePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440670718E9124400918E9E /* NSMeapIMatePlugin.m */; };
+		F440670B18E9124400918E9E /* NSMeapSSOServerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440670A18E9124400918E9E /* NSMeapSSOServerPlugin.m */; };
+		F440670E18E9124400918E9E /* NSMeapMediaPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440670D18E9124400918E9E /* NSMeapMediaPlugin.m */; };
+		F440671118E9124400918E9E /* NSMeapMessagePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440671018E9124400918E9E /* NSMeapMessagePlugin.m */; };
+		F440671418E9124400918E9E /* NSMeapNetworkStatusPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440671318E9124400918E9E /* NSMeapNetworkStatusPlugin.m */; };
+		F440671718E9124400918E9E /* NSMeapScanBigImagePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440671618E9124400918E9E /* NSMeapScanBigImagePlugin.m */; };
+		F440671A18E9124400918E9E /* NSMeapTelPhonePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440671918E9124400918E9E /* NSMeapTelPhonePlugin.m */; };
+		F440671D18E9124400918E9E /* NSMeapWebRequestPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440671C18E9124400918E9E /* NSMeapWebRequestPlugin.m */; };
+		F440672018E9124400918E9E /* NSMeapZipPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440671F18E9124400918E9E /* NSMeapZipPlugin.m */; };
+		F440672318E9124400918E9E /* NSMeapWebViewServerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440672218E9124400918E9E /* NSMeapWebViewServerPlugin.m */; };
+		F440672718E9124400918E9E /* NSMeapBeanEventPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440672618E9124400918E9E /* NSMeapBeanEventPlugin.m */; };
+		F440672A18E9124400918E9E /* NSMeapBytesEventPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440672918E9124400918E9E /* NSMeapBytesEventPlugin.m */; };
+		F440672D18E9124400918E9E /* NSMeapMapEventPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440672C18E9124400918E9E /* NSMeapMapEventPlugin.m */; };
+		F440673018E9124400918E9E /* NSMeapTextEventPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440672F18E9124400918E9E /* NSMeapTextEventPlugin.m */; };
+		F440673318E9124400918E9E /* NSMeapScreemTimerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440673218E9124400918E9E /* NSMeapScreemTimerPlugin.m */; };
+		F440673618E9124400918E9E /* NSMeapJumpAPPPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440673518E9124400918E9E /* NSMeapJumpAPPPlugin.m */; };
+		F440673918E9124400918E9E /* NSMeapInstallAPPPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440673818E9124400918E9E /* NSMeapInstallAPPPlugin.m */; };
+		F440673C18E9124400918E9E /* NSMeapScanOfficeFilePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440673B18E9124400918E9E /* NSMeapScanOfficeFilePlugin.m */; };
+		F440673F18E9124400918E9E /* NSMeapEditOfficeFilePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440673E18E9124400918E9E /* NSMeapEditOfficeFilePlugin.m */; };
+		F440674218E9124400918E9E /* NSMeapCheckAPPExistPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440674118E9124400918E9E /* NSMeapCheckAPPExistPlugin.m */; };
+		F440674518E9124400918E9E /* NSMeapKillAPPPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440674418E9124400918E9E /* NSMeapKillAPPPlugin.m */; };
+		F440674818E9124400918E9E /* NSMeapScreenResolutionPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440674718E9124400918E9E /* NSMeapScreenResolutionPlugin.m */; };
+		F440674B18E9124400918E9E /* NSMeapCallJsMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F440674A18E9124400918E9E /* NSMeapCallJsMethod.m */; };
+		F440674F18E9124400918E9E /* NSMeapPasswordLockPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F440674E18E9124400918E9E /* NSMeapPasswordLockPlugin.m */; };
+		F440675318E9124400918E9E /* CheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F440675218E9124400918E9E /* CheckViewController.m */; };
+		F440675518E9124400918E9E /* CheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F440675418E9124400918E9E /* CheckViewController.xib */; };
+		F440675818E9124400918E9E /* LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F440675718E9124400918E9E /* LockViewController.m */; };
+		F440675A18E9124400918E9E /* LockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F440675918E9124400918E9E /* LockViewController.xib */; };
+		F440675E18E9124400918E9E /* MJCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F440675D18E9124400918E9E /* MJCircleLayer.m */; };
+		F440676118E9124400918E9E /* MJPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = F440676018E9124400918E9E /* MJPasswordView.m */; };
+		F440676418E9124400918E9E /* MJPathLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F440676318E9124400918E9E /* MJPathLayer.m */; };
+		F440676918E9124600918E9E /* libNSMeapQRCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F440676818E9124600918E9E /* libNSMeapQRCode.a */; };
+		F440676C18E9124600918E9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F440676B18E9124600918E9E /* AppDelegate.m */; };
+		F440676E18E9124600918E9E /* 1-57.png in Resources */ = {isa = PBXBuildFile; fileRef = F440676D18E9124600918E9E /* 1-57.png */; };
+		F440677018E9124600918E9E /* 1-72.png in Resources */ = {isa = PBXBuildFile; fileRef = F440676F18E9124600918E9E /* 1-72.png */; };
+		F440677218E9124600918E9E /* 1-114.png in Resources */ = {isa = PBXBuildFile; fileRef = F440677118E9124600918E9E /* 1-114.png */; };
+		F440677418E9124600918E9E /* 144_144.png in Resources */ = {isa = PBXBuildFile; fileRef = F440677318E9124600918E9E /* 144_144.png */; };
+		F440677618E9124600918E9E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F440677518E9124600918E9E /* Default-568h@2x.png */; };
+		F440677818E9124600918E9E /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F440677718E9124600918E9E /* Default-Landscape@2x~ipad.png */; };
+		F440677A18E9124600918E9E /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F440677918E9124600918E9E /* Default-Portrait@2x~ipad.png */; };
+		F440677C18E9124600918E9E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F440677B18E9124600918E9E /* Default.png */; };
+		F440677E18E9124600918E9E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F440677D18E9124600918E9E /* Default@2x.png */; };
+		F440678518E9126600918E9E /* www in Resources */ = {isa = PBXBuildFile; fileRef = F440678418E9126600918E9E /* www */; };
+		F440678818E9495300918E9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F440678718E9495300918E9E /* Images.xcassets */; };
+		F440678A18E9498B00918E9E /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F440678918E9498B00918E9E /* Images-2.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F44065EE18E9124000918E9E /* TTTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44065F118E9124100918E9E /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		F44065F318E9124100918E9E /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F44065F518E9124100918E9E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F44065F718E9124100918E9E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F44065F918E9124100918E9E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F44065FB18E9124100918E9E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F44065FD18E9124100918E9E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F44065FF18E9124100918E9E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F440660118E9124100918E9E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F440660318E9124100918E9E /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		F440660518E9124100918E9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F440660718E9124100918E9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F440660918E9124100918E9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F440660B18E9124100918E9E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F440660D18E9124100918E9E /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		F440660F18E9124100918E9E /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		F440661118E9124100918E9E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F440661318E9124100918E9E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F440661518E9124100918E9E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F440661718E9124100918E9E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F440661918E9124100918E9E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F440661B18E9124100918E9E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F440661D18E9124100918E9E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F440661F18E9124100918E9E /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		F440662318E9124100918E9E /* TTTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TTTest-Info.plist"; sourceTree = "<group>"; };
+		F440662518E9124100918E9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F440662718E9124100918E9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F440662918E9124100918E9E /* TTTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TTTest-Prefix.pch"; sourceTree = "<group>"; };
+		F440662C18E9124100918E9E /* SBJson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJson.h; path = json/SBJson.h; sourceTree = "<group>"; };
+		F440662D18E9124100918E9E /* NSObject+SBJson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSObject+SBJson.h"; path = "json/NSObject+SBJson.h"; sourceTree = "<group>"; };
+		F440662E18E9124100918E9E /* NSObject+SBJson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SBJson.m"; path = "json/NSObject+SBJson.m"; sourceTree = "<group>"; };
+		F440663018E9124100918E9E /* SBJsonParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonParser.h; path = json/SBJsonParser.h; sourceTree = "<group>"; };
+		F440663118E9124100918E9E /* SBJsonParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = json/SBJsonParser.m; sourceTree = "<group>"; };
+		F440663318E9124100918E9E /* SBJsonStreamParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParser.h; path = json/SBJsonStreamParser.h; sourceTree = "<group>"; };
+		F440663418E9124100918E9E /* SBJsonStreamParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParser.m; path = json/SBJsonStreamParser.m; sourceTree = "<group>"; };
+		F440663618E9124100918E9E /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAccumulator.h; path = json/SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		F440663718E9124100918E9E /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAccumulator.m; path = json/SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		F440663918E9124100918E9E /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAdapter.h; path = json/SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		F440663A18E9124100918E9E /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAdapter.m; path = json/SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		F440663C18E9124100918E9E /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserState.h; path = json/SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		F440663D18E9124100918E9E /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserState.m; path = json/SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		F440663F18E9124100918E9E /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriter.h; path = json/SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		F440664018E9124100918E9E /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriter.m; path = json/SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		F440664218E9124100918E9E /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterAccumulator.h; path = json/SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		F440664318E9124100918E9E /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterAccumulator.m; path = json/SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		F440664518E9124100918E9E /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterState.h; path = json/SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		F440664618E9124100918E9E /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterState.m; path = json/SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		F440664818E9124100918E9E /* SBJsonTokeniser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonTokeniser.h; path = json/SBJsonTokeniser.h; sourceTree = "<group>"; };
+		F440664918E9124100918E9E /* SBJsonTokeniser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonTokeniser.m; path = json/SBJsonTokeniser.m; sourceTree = "<group>"; };
+		F440664B18E9124100918E9E /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonUTF8Stream.h; path = json/SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		F440664C18E9124100918E9E /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonUTF8Stream.m; path = json/SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		F440664E18E9124100918E9E /* SBJsonWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = json/SBJsonWriter.h; sourceTree = "<group>"; };
+		F440664F18E9124100918E9E /* SBJsonWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = json/SBJsonWriter.m; sourceTree = "<group>"; };
+		F440665218E9124100918E9E /* DSLCalendarDayCalloutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DSLCalendarDayCalloutView.h; path = DSLCalendarView/DSLCalendarDayCalloutView.h; sourceTree = "<group>"; };
+		F440665318E9124100918E9E /* DSLCalendarDayCalloutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DSLCalendarDayCalloutView.m; path = DSLCalendarView/DSLCalendarDayCalloutView.m; sourceTree = "<group>"; };
+		F440665518E9124100918E9E /* DSLCalendarDayCalloutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DSLCalendarDayCalloutView.xib; path = DSLCalendarView/DSLCalendarDayCalloutView.xib; sourceTree = "<group>"; };
+		F440665718E9124100918E9E /* DSLCalendarDayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DSLCalendarDayView.h; path = DSLCalendarView/DSLCalendarDayView.h; sourceTree = "<group>"; };
+		F440665818E9124100918E9E /* DSLCalendarDayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DSLCalendarDayView.m; path = DSLCalendarView/DSLCalendarDayView.m; sourceTree = "<group>"; };
+		F440665A18E9124100918E9E /* DSLCalendarMonthSelectorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DSLCalendarMonthSelectorView.h; path = DSLCalendarView/DSLCalendarMonthSelectorView.h; sourceTree = "<group>"; };
+		F440665B18E9124100918E9E /* DSLCalendarMonthSelectorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DSLCalendarMonthSelectorView.m; path = DSLCalendarView/DSLCalendarMonthSelectorView.m; sourceTree = "<group>"; };
+		F440665D18E9124100918E9E /* DSLCalendarMonthSelectorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DSLCalendarMonthSelectorView.xib; path = DSLCalendarView/DSLCalendarMonthSelectorView.xib; sourceTree = "<group>"; };
+		F440665F18E9124100918E9E /* DSLCalendarMonthView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DSLCalendarMonthView.h; path = DSLCalendarView/DSLCalendarMonthView.h; sourceTree = "<group>"; };
+		F440666018E9124100918E9E /* DSLCalendarMonthView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DSLCalendarMonthView.m; path = DSLCalendarView/DSLCalendarMonthView.m; sourceTree = "<group>"; };
+		F440666218E9124100918E9E /* DSLCalendarRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DSLCalendarRange.h; path = DSLCalendarView/DSLCalendarRange.h; sourceTree = "<group>"; };
+		F440666318E9124100918E9E /* DSLCalendarRange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DSLCalendarRange.m; path = DSLCalendarView/DSLCalendarRange.m; sourceTree = "<group>"; };
+		F440666518E9124100918E9E /* DSLCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DSLCalendarView.h; path = DSLCalendarView/DSLCalendarView.h; sourceTree = "<group>"; };
+		F440666618E9124100918E9E /* DSLCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DSLCalendarView.m; path = DSLCalendarView/DSLCalendarView.m; sourceTree = "<group>"; };
+		F440666818E9124100918E9E /* NSDate+DSLCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSDate+DSLCalendarView.h"; path = "DSLCalendarView/NSDate+DSLCalendarView.h"; sourceTree = "<group>"; };
+		F440666918E9124100918E9E /* NSDate+DSLCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSDate+DSLCalendarView.m"; path = "DSLCalendarView/NSDate+DSLCalendarView.m"; sourceTree = "<group>"; };
+		F440666C18E9124100918E9E /* DSLCalendar-nextMonth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DSLCalendar-nextMonth.png"; path = "DSLCalendarView/image/DSLCalendar-nextMonth.png"; sourceTree = "<group>"; };
+		F440666E18E9124100918E9E /* DSLCalendar-nextMonth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DSLCalendar-nextMonth@2x.png"; path = "DSLCalendarView/image/DSLCalendar-nextMonth@2x.png"; sourceTree = "<group>"; };
+		F440667018E9124100918E9E /* DSLCalendar-previousMonth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DSLCalendar-previousMonth.png"; path = "DSLCalendarView/image/DSLCalendar-previousMonth.png"; sourceTree = "<group>"; };
+		F440667218E9124100918E9E /* DSLCalendar-previousMonth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DSLCalendar-previousMonth@2x.png"; path = "DSLCalendarView/image/DSLCalendar-previousMonth@2x.png"; sourceTree = "<group>"; };
+		F440667418E9124100918E9E /* DSLCalendarDayCallout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DSLCalendarDayCallout.png; path = DSLCalendarView/image/DSLCalendarDayCallout.png; sourceTree = "<group>"; };
+		F440667618E9124100918E9E /* DSLCalendarDayCallout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DSLCalendarDayCallout@2x.png"; path = "DSLCalendarView/image/DSLCalendarDayCallout@2x.png"; sourceTree = "<group>"; };
+		F440667818E9124100918E9E /* DSLCalendarDaySelection-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DSLCalendarDaySelection-left.png"; path = "DSLCalendarView/image/DSLCalendarDaySelection-left.png"; sourceTree = "<group>"; };
+		F440667A18E9124100918E9E /* DSLCalendarDaySelection-left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DSLCalendarDaySelection-left@2x.png"; path = "DSLCalendarView/image/DSLCalendarDaySelection-left@2x.png"; sourceTree = "<group>"; };
+		F440667C18E9124100918E9E /* DSLCalendarDaySelection-middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DSLCalendarDaySelection-middle.png"; path = "DSLCalendarView/image/DSLCalendarDaySelection-middle.png"; sourceTree = "<group>"; };
+		F440667E18E9124100918E9E /* DSLCalendarDaySelection-middle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DSLCalendarDaySelection-middle@2x.png"; path = "DSLCalendarView/image/DSLCalendarDaySelection-middle@2x.png"; sourceTree = "<group>"; };
+		F440668018E9124100918E9E /* DSLCalendarDaySelection-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DSLCalendarDaySelection-right.png"; path = "DSLCalendarView/image/DSLCalendarDaySelection-right.png"; sourceTree = "<group>"; };
+		F440668218E9124100918E9E /* DSLCalendarDaySelection-right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DSLCalendarDaySelection-right@2x.png"; path = "DSLCalendarView/image/DSLCalendarDaySelection-right@2x.png"; sourceTree = "<group>"; };
+		F440668418E9124100918E9E /* DSLCalendarDaySelection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DSLCalendarDaySelection.png; path = DSLCalendarView/image/DSLCalendarDaySelection.png; sourceTree = "<group>"; };
+		F440668618E9124100918E9E /* DSLCalendarDaySelection@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DSLCalendarDaySelection@2x.png"; path = "DSLCalendarView/image/DSLCalendarDaySelection@2x.png"; sourceTree = "<group>"; };
+		F440668818E9124100918E9E /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		F440668B18E9124100918E9E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = /usr/lib/libiconv.dylib; sourceTree = "<absolute>"; };
+		F440668D18E9124100918E9E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F440668E18E9124100918E9E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F440669018E9124100918E9E /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		F440669518E9124100918E9E /* CDV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDV.h; path = Cordova/include/Cordova/CDV.h; sourceTree = "<group>"; };
+		F440669618E9124100918E9E /* CDVAccelerometer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVAccelerometer.h; path = Cordova/include/Cordova/CDVAccelerometer.h; sourceTree = "<group>"; };
+		F440669718E9124100918E9E /* CDVAvailability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVAvailability.h; path = Cordova/include/Cordova/CDVAvailability.h; sourceTree = "<group>"; };
+		F440669818E9124100918E9E /* CDVBattery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVBattery.h; path = Cordova/include/Cordova/CDVBattery.h; sourceTree = "<group>"; };
+		F440669918E9124100918E9E /* CDVCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVCamera.h; path = Cordova/include/Cordova/CDVCamera.h; sourceTree = "<group>"; };
+		F440669A18E9124100918E9E /* CDVCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVCapture.h; path = Cordova/include/Cordova/CDVCapture.h; sourceTree = "<group>"; };
+		F440669B18E9124100918E9E /* CDVCommandDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVCommandDelegate.h; path = Cordova/include/Cordova/CDVCommandDelegate.h; sourceTree = "<group>"; };
+		F440669C18E9124100918E9E /* CDVCommandDelegateImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVCommandDelegateImpl.h; path = Cordova/include/Cordova/CDVCommandDelegateImpl.h; sourceTree = "<group>"; };
+		F440669D18E9124100918E9E /* CDVCommandQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVCommandQueue.h; path = Cordova/include/Cordova/CDVCommandQueue.h; sourceTree = "<group>"; };
+		F440669E18E9124100918E9E /* CDVConfigParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVConfigParser.h; path = Cordova/include/Cordova/CDVConfigParser.h; sourceTree = "<group>"; };
+		F440669F18E9124100918E9E /* CDVConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVConnection.h; path = Cordova/include/Cordova/CDVConnection.h; sourceTree = "<group>"; };
+		F44066A018E9124100918E9E /* CDVContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVContact.h; path = Cordova/include/Cordova/CDVContact.h; sourceTree = "<group>"; };
+		F44066A118E9124100918E9E /* CDVContacts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVContacts.h; path = Cordova/include/Cordova/CDVContacts.h; sourceTree = "<group>"; };
+		F44066A218E9124100918E9E /* CDVDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVDebug.h; path = Cordova/include/Cordova/CDVDebug.h; sourceTree = "<group>"; };
+		F44066A318E9124100918E9E /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = Cordova/include/Cordova/CDVDevice.h; sourceTree = "<group>"; };
+		F44066A418E9124100918E9E /* CDVEcho.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVEcho.h; path = Cordova/include/Cordova/CDVEcho.h; sourceTree = "<group>"; };
+		F44066A518E9124100918E9E /* CDVExif.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVExif.h; path = Cordova/include/Cordova/CDVExif.h; sourceTree = "<group>"; };
+		F44066A618E9124100918E9E /* CDVFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVFile.h; path = Cordova/include/Cordova/CDVFile.h; sourceTree = "<group>"; };
+		F44066A718E9124100918E9E /* CDVFileTransfer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVFileTransfer.h; path = Cordova/include/Cordova/CDVFileTransfer.h; sourceTree = "<group>"; };
+		F44066A818E9124100918E9E /* CDVGlobalization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVGlobalization.h; path = Cordova/include/Cordova/CDVGlobalization.h; sourceTree = "<group>"; };
+		F44066A918E9124100918E9E /* CDVInAppBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVInAppBrowser.h; path = Cordova/include/Cordova/CDVInAppBrowser.h; sourceTree = "<group>"; };
+		F44066AA18E9124100918E9E /* CDVInvokedUrlCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVInvokedUrlCommand.h; path = Cordova/include/Cordova/CDVInvokedUrlCommand.h; sourceTree = "<group>"; };
+		F44066AB18E9124100918E9E /* CDVJpegHeaderWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVJpegHeaderWriter.h; path = Cordova/include/Cordova/CDVJpegHeaderWriter.h; sourceTree = "<group>"; };
+		F44066AC18E9124100918E9E /* CDVJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVJSON.h; path = Cordova/include/Cordova/CDVJSON.h; sourceTree = "<group>"; };
+		F44066AD18E9124100918E9E /* CDVLocalStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVLocalStorage.h; path = Cordova/include/Cordova/CDVLocalStorage.h; sourceTree = "<group>"; };
+		F44066AE18E9124100918E9E /* CDVLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVLocation.h; path = Cordova/include/Cordova/CDVLocation.h; sourceTree = "<group>"; };
+		F44066AF18E9124100918E9E /* CDVLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVLogger.h; path = Cordova/include/Cordova/CDVLogger.h; sourceTree = "<group>"; };
+		F44066B018E9124100918E9E /* CDVNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVNotification.h; path = Cordova/include/Cordova/CDVNotification.h; sourceTree = "<group>"; };
+		F44066B118E9124100918E9E /* CDVPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVPlugin.h; path = Cordova/include/Cordova/CDVPlugin.h; sourceTree = "<group>"; };
+		F44066B218E9124100918E9E /* CDVPluginResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVPluginResult.h; path = Cordova/include/Cordova/CDVPluginResult.h; sourceTree = "<group>"; };
+		F44066B318E9124100918E9E /* CDVReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVReachability.h; path = Cordova/include/Cordova/CDVReachability.h; sourceTree = "<group>"; };
+		F44066B418E9124100918E9E /* CDVScreenOrientationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVScreenOrientationDelegate.h; path = Cordova/include/Cordova/CDVScreenOrientationDelegate.h; sourceTree = "<group>"; };
+		F44066B518E9124100918E9E /* CDVSound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVSound.h; path = Cordova/include/Cordova/CDVSound.h; sourceTree = "<group>"; };
+		F44066B618E9124100918E9E /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVSplashScreen.h; path = Cordova/include/Cordova/CDVSplashScreen.h; sourceTree = "<group>"; };
+		F44066B718E9124100918E9E /* CDVTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVTimer.h; path = Cordova/include/Cordova/CDVTimer.h; sourceTree = "<group>"; };
+		F44066B818E9124100918E9E /* CDVURLProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVURLProtocol.h; path = Cordova/include/Cordova/CDVURLProtocol.h; sourceTree = "<group>"; };
+		F44066B918E9124100918E9E /* CDVUserAgentUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVUserAgentUtil.h; path = Cordova/include/Cordova/CDVUserAgentUtil.h; sourceTree = "<group>"; };
+		F44066BA18E9124100918E9E /* CDVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVViewController.h; path = Cordova/include/Cordova/CDVViewController.h; sourceTree = "<group>"; };
+		F44066BB18E9124100918E9E /* CDVWebViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVWebViewDelegate.h; path = Cordova/include/Cordova/CDVWebViewDelegate.h; sourceTree = "<group>"; };
+		F44066BC18E9124100918E9E /* CDVWhitelist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDVWhitelist.h; path = Cordova/include/Cordova/CDVWhitelist.h; sourceTree = "<group>"; };
+		F44066BD18E9124100918E9E /* NSArray+Comparisons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSArray+Comparisons.h"; path = "Cordova/include/Cordova/NSArray+Comparisons.h"; sourceTree = "<group>"; };
+		F44066BE18E9124100918E9E /* NSData+Base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "Cordova/include/Cordova/NSData+Base64.h"; sourceTree = "<group>"; };
+		F44066BF18E9124100918E9E /* NSDictionary+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Extensions.h"; path = "Cordova/include/Cordova/NSDictionary+Extensions.h"; sourceTree = "<group>"; };
+		F44066C018E9124100918E9E /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+QueueAdditions.h"; path = "Cordova/include/Cordova/NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		F44066C118E9124100918E9E /* UIDevice+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIDevice+Extensions.h"; path = "Cordova/include/Cordova/UIDevice+Extensions.h"; sourceTree = "<group>"; };
+		F44066C218E9124200918E9E /* libCordova.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCordova.a; path = Cordova/libCordova.a; sourceTree = "<group>"; };
+		F44066C418E9124200918E9E /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F44066C518E9124200918E9E /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F44066CA18E9124200918E9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F44066CE18E9124200918E9E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F44066D218E9124200918E9E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Resources/de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F44066D618E9124200918E9E /* se */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = se; path = Resources/se.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F44066D818E9124200918E9E /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
+		F44066DA18E9124200918E9E /* NSMeapGeneralComponets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSMeapGeneralComponets.framework; path = NSMeapLib/NSMeapGeneralComponets.framework; sourceTree = "<group>"; };
+		F44066DC18E9124200918E9E /* NSMeapGeneralComponets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = NSMeapGeneralComponets.bundle; path = NSMeapLib/NSMeapGeneralComponets.bundle; sourceTree = "<group>"; };
+		F44066DE18E9124200918E9E /* NSMeapBusinessComponents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSMeapBusinessComponents.framework; path = NSMeapLib/NSMeapBusinessComponents.framework; sourceTree = "<group>"; };
+		F44066E018E9124200918E9E /* NSMeapBusinessComponents.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = NSMeapBusinessComponents.bundle; path = NSMeapLib/NSMeapBusinessComponents.bundle; sourceTree = "<group>"; };
+		F44066E218E9124200918E9E /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = /usr/lib/libsqlite3.0.dylib; sourceTree = "<absolute>"; };
+		F44066E418E9124300918E9E /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = /usr/lib/libz.1.2.5.dylib; sourceTree = "<absolute>"; };
+		F44066E618E9124400918E9E /* NSMeap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSMeap.framework; path = NSMeapLib/NSMeap.framework; sourceTree = "<group>"; };
+		F44066E818E9124400918E9E /* HXiMateSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HXiMateSDK.framework; path = NSMeapLib/HXiMateSDK.framework; sourceTree = "<group>"; };
+		F44066EB18E9124400918E9E /* NSMeapCalendarPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapCalendarPlugin.h; path = Plugins/NSMeapCalendarPlugin.h; sourceTree = "<group>"; };
+		F44066EC18E9124400918E9E /* NSMeapCalendarPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapCalendarPlugin.m; path = Plugins/NSMeapCalendarPlugin.m; sourceTree = "<group>"; };
+		F44066EE18E9124400918E9E /* NSMeapQRCodePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapQRCodePlugin.h; path = Plugins/NSMeapQRCodePlugin.h; sourceTree = "<group>"; };
+		F44066EF18E9124400918E9E /* NSMeapQRCodePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapQRCodePlugin.m; path = Plugins/NSMeapQRCodePlugin.m; sourceTree = "<group>"; };
+		F44066F118E9124400918E9E /* NSMeapCheckAppUpdatePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapCheckAppUpdatePlugin.h; path = Plugins/NSMeapCheckAppUpdatePlugin.h; sourceTree = "<group>"; };
+		F44066F218E9124400918E9E /* NSMeapCheckAppUpdatePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapCheckAppUpdatePlugin.m; path = Plugins/NSMeapCheckAppUpdatePlugin.m; sourceTree = "<group>"; };
+		F44066F418E9124400918E9E /* NSMeapCheckWebUpdatePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapCheckWebUpdatePlugin.h; path = Plugins/NSMeapCheckWebUpdatePlugin.h; sourceTree = "<group>"; };
+		F44066F518E9124400918E9E /* NSMeapCheckWebUpdatePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapCheckWebUpdatePlugin.m; path = Plugins/NSMeapCheckWebUpdatePlugin.m; sourceTree = "<group>"; };
+		F44066F718E9124400918E9E /* NSMeapConfigIPPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapConfigIPPlugin.h; path = Plugins/NSMeapConfigIPPlugin.h; sourceTree = "<group>"; };
+		F44066F818E9124400918E9E /* NSMeapConfigIPPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapConfigIPPlugin.m; path = Plugins/NSMeapConfigIPPlugin.m; sourceTree = "<group>"; };
+		F44066FA18E9124400918E9E /* NSMeapDataSecurityPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapDataSecurityPlugin.h; path = Plugins/NSMeapDataSecurityPlugin.h; sourceTree = "<group>"; };
+		F44066FB18E9124400918E9E /* NSMeapDataSecurityPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapDataSecurityPlugin.m; path = Plugins/NSMeapDataSecurityPlugin.m; sourceTree = "<group>"; };
+		F44066FD18E9124400918E9E /* NSMeapDatePickerPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapDatePickerPlugin.h; path = Plugins/NSMeapDatePickerPlugin.h; sourceTree = "<group>"; };
+		F44066FE18E9124400918E9E /* NSMeapDatePickerPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapDatePickerPlugin.m; path = Plugins/NSMeapDatePickerPlugin.m; sourceTree = "<group>"; };
+		F440670018E9124400918E9E /* NSMeapFileManagerPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapFileManagerPlugin.h; path = Plugins/NSMeapFileManagerPlugin.h; sourceTree = "<group>"; };
+		F440670118E9124400918E9E /* NSMeapFileManagerPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapFileManagerPlugin.m; path = Plugins/NSMeapFileManagerPlugin.m; sourceTree = "<group>"; };
+		F440670318E9124400918E9E /* NSMeapGetCaptchaPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapGetCaptchaPlugin.h; path = Plugins/NSMeapGetCaptchaPlugin.h; sourceTree = "<group>"; };
+		F440670418E9124400918E9E /* NSMeapGetCaptchaPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapGetCaptchaPlugin.m; path = Plugins/NSMeapGetCaptchaPlugin.m; sourceTree = "<group>"; };
+		F440670618E9124400918E9E /* NSMeapIMatePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapIMatePlugin.h; path = Plugins/NSMeapIMatePlugin.h; sourceTree = "<group>"; };
+		F440670718E9124400918E9E /* NSMeapIMatePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapIMatePlugin.m; path = Plugins/NSMeapIMatePlugin.m; sourceTree = "<group>"; };
+		F440670918E9124400918E9E /* NSMeapSSOServerPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapSSOServerPlugin.h; path = Plugins/NSMeapSSOServerPlugin.h; sourceTree = "<group>"; };
+		F440670A18E9124400918E9E /* NSMeapSSOServerPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapSSOServerPlugin.m; path = Plugins/NSMeapSSOServerPlugin.m; sourceTree = "<group>"; };
+		F440670C18E9124400918E9E /* NSMeapMediaPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapMediaPlugin.h; path = Plugins/NSMeapMediaPlugin.h; sourceTree = "<group>"; };
+		F440670D18E9124400918E9E /* NSMeapMediaPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapMediaPlugin.m; path = Plugins/NSMeapMediaPlugin.m; sourceTree = "<group>"; };
+		F440670F18E9124400918E9E /* NSMeapMessagePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapMessagePlugin.h; path = Plugins/NSMeapMessagePlugin.h; sourceTree = "<group>"; };
+		F440671018E9124400918E9E /* NSMeapMessagePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapMessagePlugin.m; path = Plugins/NSMeapMessagePlugin.m; sourceTree = "<group>"; };
+		F440671218E9124400918E9E /* NSMeapNetworkStatusPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapNetworkStatusPlugin.h; path = Plugins/NSMeapNetworkStatusPlugin.h; sourceTree = "<group>"; };
+		F440671318E9124400918E9E /* NSMeapNetworkStatusPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapNetworkStatusPlugin.m; path = Plugins/NSMeapNetworkStatusPlugin.m; sourceTree = "<group>"; };
+		F440671518E9124400918E9E /* NSMeapScanBigImagePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapScanBigImagePlugin.h; path = Plugins/NSMeapScanBigImagePlugin.h; sourceTree = "<group>"; };
+		F440671618E9124400918E9E /* NSMeapScanBigImagePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapScanBigImagePlugin.m; path = Plugins/NSMeapScanBigImagePlugin.m; sourceTree = "<group>"; };
+		F440671818E9124400918E9E /* NSMeapTelPhonePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapTelPhonePlugin.h; path = Plugins/NSMeapTelPhonePlugin.h; sourceTree = "<group>"; };
+		F440671918E9124400918E9E /* NSMeapTelPhonePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapTelPhonePlugin.m; path = Plugins/NSMeapTelPhonePlugin.m; sourceTree = "<group>"; };
+		F440671B18E9124400918E9E /* NSMeapWebRequestPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapWebRequestPlugin.h; path = Plugins/NSMeapWebRequestPlugin.h; sourceTree = "<group>"; };
+		F440671C18E9124400918E9E /* NSMeapWebRequestPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapWebRequestPlugin.m; path = Plugins/NSMeapWebRequestPlugin.m; sourceTree = "<group>"; };
+		F440671E18E9124400918E9E /* NSMeapZipPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapZipPlugin.h; path = Plugins/NSMeapZipPlugin.h; sourceTree = "<group>"; };
+		F440671F18E9124400918E9E /* NSMeapZipPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapZipPlugin.m; path = Plugins/NSMeapZipPlugin.m; sourceTree = "<group>"; };
+		F440672118E9124400918E9E /* NSMeapWebViewServerPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapWebViewServerPlugin.h; path = Plugins/NSMeapWebViewServerPlugin.h; sourceTree = "<group>"; };
+		F440672218E9124400918E9E /* NSMeapWebViewServerPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapWebViewServerPlugin.m; path = Plugins/NSMeapWebViewServerPlugin.m; sourceTree = "<group>"; };
+		F440672518E9124400918E9E /* NSMeapBeanEventPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapBeanEventPlugin.h; path = Plugins/Events/NSMeapBeanEventPlugin.h; sourceTree = "<group>"; };
+		F440672618E9124400918E9E /* NSMeapBeanEventPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapBeanEventPlugin.m; path = Plugins/Events/NSMeapBeanEventPlugin.m; sourceTree = "<group>"; };
+		F440672818E9124400918E9E /* NSMeapBytesEventPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapBytesEventPlugin.h; path = Plugins/Events/NSMeapBytesEventPlugin.h; sourceTree = "<group>"; };
+		F440672918E9124400918E9E /* NSMeapBytesEventPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapBytesEventPlugin.m; path = Plugins/Events/NSMeapBytesEventPlugin.m; sourceTree = "<group>"; };
+		F440672B18E9124400918E9E /* NSMeapMapEventPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapMapEventPlugin.h; path = Plugins/Events/NSMeapMapEventPlugin.h; sourceTree = "<group>"; };
+		F440672C18E9124400918E9E /* NSMeapMapEventPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapMapEventPlugin.m; path = Plugins/Events/NSMeapMapEventPlugin.m; sourceTree = "<group>"; };
+		F440672E18E9124400918E9E /* NSMeapTextEventPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapTextEventPlugin.h; path = Plugins/Events/NSMeapTextEventPlugin.h; sourceTree = "<group>"; };
+		F440672F18E9124400918E9E /* NSMeapTextEventPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapTextEventPlugin.m; path = Plugins/Events/NSMeapTextEventPlugin.m; sourceTree = "<group>"; };
+		F440673118E9124400918E9E /* NSMeapScreemTimerPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapScreemTimerPlugin.h; path = Plugins/Events/NSMeapScreemTimerPlugin.h; sourceTree = "<group>"; };
+		F440673218E9124400918E9E /* NSMeapScreemTimerPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapScreemTimerPlugin.m; path = Plugins/Events/NSMeapScreemTimerPlugin.m; sourceTree = "<group>"; };
+		F440673418E9124400918E9E /* NSMeapJumpAPPPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapJumpAPPPlugin.h; path = Plugins/Events/NSMeapJumpAPPPlugin.h; sourceTree = "<group>"; };
+		F440673518E9124400918E9E /* NSMeapJumpAPPPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapJumpAPPPlugin.m; path = Plugins/Events/NSMeapJumpAPPPlugin.m; sourceTree = "<group>"; };
+		F440673718E9124400918E9E /* NSMeapInstallAPPPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapInstallAPPPlugin.h; path = Plugins/Events/NSMeapInstallAPPPlugin.h; sourceTree = "<group>"; };
+		F440673818E9124400918E9E /* NSMeapInstallAPPPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapInstallAPPPlugin.m; path = Plugins/Events/NSMeapInstallAPPPlugin.m; sourceTree = "<group>"; };
+		F440673A18E9124400918E9E /* NSMeapScanOfficeFilePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapScanOfficeFilePlugin.h; path = Plugins/Events/NSMeapScanOfficeFilePlugin.h; sourceTree = "<group>"; };
+		F440673B18E9124400918E9E /* NSMeapScanOfficeFilePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapScanOfficeFilePlugin.m; path = Plugins/Events/NSMeapScanOfficeFilePlugin.m; sourceTree = "<group>"; };
+		F440673D18E9124400918E9E /* NSMeapEditOfficeFilePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapEditOfficeFilePlugin.h; path = Plugins/Events/NSMeapEditOfficeFilePlugin.h; sourceTree = "<group>"; };
+		F440673E18E9124400918E9E /* NSMeapEditOfficeFilePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapEditOfficeFilePlugin.m; path = Plugins/Events/NSMeapEditOfficeFilePlugin.m; sourceTree = "<group>"; };
+		F440674018E9124400918E9E /* NSMeapCheckAPPExistPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapCheckAPPExistPlugin.h; path = Plugins/Events/NSMeapCheckAPPExistPlugin.h; sourceTree = "<group>"; };
+		F440674118E9124400918E9E /* NSMeapCheckAPPExistPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapCheckAPPExistPlugin.m; path = Plugins/Events/NSMeapCheckAPPExistPlugin.m; sourceTree = "<group>"; };
+		F440674318E9124400918E9E /* NSMeapKillAPPPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapKillAPPPlugin.h; path = Plugins/Events/NSMeapKillAPPPlugin.h; sourceTree = "<group>"; };
+		F440674418E9124400918E9E /* NSMeapKillAPPPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapKillAPPPlugin.m; path = Plugins/Events/NSMeapKillAPPPlugin.m; sourceTree = "<group>"; };
+		F440674618E9124400918E9E /* NSMeapScreenResolutionPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapScreenResolutionPlugin.h; path = Plugins/Events/NSMeapScreenResolutionPlugin.h; sourceTree = "<group>"; };
+		F440674718E9124400918E9E /* NSMeapScreenResolutionPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapScreenResolutionPlugin.m; path = Plugins/Events/NSMeapScreenResolutionPlugin.m; sourceTree = "<group>"; };
+		F440674918E9124400918E9E /* NSMeapCallJsMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapCallJsMethod.h; path = Plugins/Events/NSMeapCallJsMethod.h; sourceTree = "<group>"; };
+		F440674A18E9124400918E9E /* NSMeapCallJsMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapCallJsMethod.m; path = Plugins/Events/NSMeapCallJsMethod.m; sourceTree = "<group>"; };
+		F440674D18E9124400918E9E /* NSMeapPasswordLockPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapPasswordLockPlugin.h; path = Plugins/NSMeapLockPlugin/NSMeapPasswordLockPlugin.h; sourceTree = "<group>"; };
+		F440674E18E9124400918E9E /* NSMeapPasswordLockPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSMeapPasswordLockPlugin.m; path = Plugins/NSMeapLockPlugin/NSMeapPasswordLockPlugin.m; sourceTree = "<group>"; };
+		F440675118E9124400918E9E /* CheckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CheckViewController.h; path = Plugins/NSMeapLockPlugin/View/CheckViewController.h; sourceTree = "<group>"; };
+		F440675218E9124400918E9E /* CheckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CheckViewController.m; path = Plugins/NSMeapLockPlugin/View/CheckViewController.m; sourceTree = "<group>"; };
+		F440675418E9124400918E9E /* CheckViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CheckViewController.xib; path = Plugins/NSMeapLockPlugin/View/CheckViewController.xib; sourceTree = "<group>"; };
+		F440675618E9124400918E9E /* LockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LockViewController.h; path = Plugins/NSMeapLockPlugin/View/LockViewController.h; sourceTree = "<group>"; };
+		F440675718E9124400918E9E /* LockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LockViewController.m; path = Plugins/NSMeapLockPlugin/View/LockViewController.m; sourceTree = "<group>"; };
+		F440675918E9124400918E9E /* LockViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LockViewController.xib; path = Plugins/NSMeapLockPlugin/View/LockViewController.xib; sourceTree = "<group>"; };
+		F440675C18E9124400918E9E /* MJCircleLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MJCircleLayer.h; path = Plugins/NSMeapLockPlugin/View/MJPasswordView/MJCircleLayer.h; sourceTree = "<group>"; };
+		F440675D18E9124400918E9E /* MJCircleLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MJCircleLayer.m; path = Plugins/NSMeapLockPlugin/View/MJPasswordView/MJCircleLayer.m; sourceTree = "<group>"; };
+		F440675F18E9124400918E9E /* MJPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MJPasswordView.h; path = Plugins/NSMeapLockPlugin/View/MJPasswordView/MJPasswordView.h; sourceTree = "<group>"; };
+		F440676018E9124400918E9E /* MJPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MJPasswordView.m; path = Plugins/NSMeapLockPlugin/View/MJPasswordView/MJPasswordView.m; sourceTree = "<group>"; };
+		F440676218E9124400918E9E /* MJPathLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MJPathLayer.h; path = Plugins/NSMeapLockPlugin/View/MJPasswordView/MJPathLayer.h; sourceTree = "<group>"; };
+		F440676318E9124400918E9E /* MJPathLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MJPathLayer.m; path = Plugins/NSMeapLockPlugin/View/MJPasswordView/MJPathLayer.m; sourceTree = "<group>"; };
+		F440676618E9124400918E9E /* NSMeapQRCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapQRCode.h; path = NSMeapLib/QRinclude/NSMeapQRCode.h; sourceTree = "<group>"; };
+		F440676718E9124400918E9E /* NSMeapQRView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSMeapQRView.h; path = NSMeapLib/QRinclude/NSMeapQRView.h; sourceTree = "<group>"; };
+		F440676818E9124600918E9E /* libNSMeapQRCode.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNSMeapQRCode.a; path = NSMeapLib/libNSMeapQRCode.a; sourceTree = "<group>"; };
+		F440676A18E9124600918E9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F440676B18E9124600918E9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F440676D18E9124600918E9E /* 1-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1-57.png"; path = "Resources/1-57.png"; sourceTree = "<group>"; };
+		F440676F18E9124600918E9E /* 1-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1-72.png"; path = "Resources/1-72.png"; sourceTree = "<group>"; };
+		F440677118E9124600918E9E /* 1-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1-114.png"; path = "Resources/1-114.png"; sourceTree = "<group>"; };
+		F440677318E9124600918E9E /* 144_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 144_144.png; path = Resources/144_144.png; sourceTree = "<group>"; };
+		F440677518E9124600918E9E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		F440677718E9124600918E9E /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x~ipad.png"; path = "Resources/Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		F440677918E9124600918E9E /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x~ipad.png"; path = "Resources/Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		F440677B18E9124600918E9E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
+		F440677D18E9124600918E9E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
+		F440678418E9126600918E9E /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		F440678718E9495300918E9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F440678918E9498B00918E9E /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		F440678B18E94DC400918E9E /* unkonwone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unkonwone.png; sourceTree = "<group>"; };
+		F440678C18E94DD400918E9E /* untitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = untitle.png; sourceTree = "<group>"; };
+		F440678D18E94E1A00918E9E /* untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = untitled.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F44065E918E9124000918E9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F440660A18E9124100918E9E /* CoreGraphics.framework in Frameworks */,
+				F440660E18E9124100918E9E /* EventKit.framework in Frameworks */,
+				F44066E918E9124400918E9E /* HXiMateSDK.framework in Frameworks */,
+				F440661218E9124100918E9E /* QuartzCore.framework in Frameworks */,
+				F44066E518E9124300918E9E /* libz.1.2.5.dylib in Frameworks */,
+				F44065F818E9124100918E9E /* CoreMedia.framework in Frameworks */,
+				F440661A18E9124100918E9E /* Security.framework in Frameworks */,
+				F440660C18E9124100918E9E /* ImageIO.framework in Frameworks */,
+				F440662018E9124100918E9E /* ExternalAccessory.framework in Frameworks */,
+				F440661418E9124100918E9E /* CoreVideo.framework in Frameworks */,
+				F44066E318E9124200918E9E /* libsqlite3.0.dylib in Frameworks */,
+				F440661818E9124100918E9E /* MediaPlayer.framework in Frameworks */,
+				F440668C18E9124100918E9E /* libiconv.dylib in Frameworks */,
+				F440660618E9124100918E9E /* UIKit.framework in Frameworks */,
+				F440660218E9124100918E9E /* SystemConfiguration.framework in Frameworks */,
+				F44066DF18E9124200918E9E /* NSMeapBusinessComponents.framework in Frameworks */,
+				F44065F618E9124100918E9E /* AssetsLibrary.framework in Frameworks */,
+				F440676918E9124600918E9E /* libNSMeapQRCode.a in Frameworks */,
+				F440661E18E9124100918E9E /* CFNetwork.framework in Frameworks */,
+				F44065FC18E9124100918E9E /* AVFoundation.framework in Frameworks */,
+				F440661018E9124100918E9E /* EventKitUI.framework in Frameworks */,
+				F440660418E9124100918E9E /* AddressBookUI.framework in Frameworks */,
+				F440661C18E9124100918E9E /* CoreTelephony.framework in Frameworks */,
+				F44066C318E9124200918E9E /* libCordova.a in Frameworks */,
+				F440661618E9124100918E9E /* MessageUI.framework in Frameworks */,
+				F44065FA18E9124100918E9E /* AudioToolbox.framework in Frameworks */,
+				F440660818E9124100918E9E /* Foundation.framework in Frameworks */,
+				F44065FE18E9124100918E9E /* CoreLocation.framework in Frameworks */,
+				F440660018E9124100918E9E /* MobileCoreServices.framework in Frameworks */,
+				F44065F418E9124100918E9E /* AddressBook.framework in Frameworks */,
+				F44065F218E9124100918E9E /* OpenAL.framework in Frameworks */,
+				F44066DB18E9124200918E9E /* NSMeapGeneralComponets.framework in Frameworks */,
+				F44066E718E9124400918E9E /* NSMeap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44065EC18E9124000918E9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F44065E318E9124000918E9E = {
+			isa = PBXGroup;
+			children = (
+				F440678D18E94E1A00918E9E /* untitled.png */,
+				F440678C18E94DD400918E9E /* untitle.png */,
+				F440678B18E94DC400918E9E /* unkonwone.png */,
+				F440678418E9126600918E9E /* www */,
+				F440662118E9124100918E9E /* TTTest */,
+				F44065F018E9124000918E9E /* Frameworks */,
+				F44065EF18E9124000918E9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F44065EF18E9124000918E9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44065EE18E9124000918E9E /* TTTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44065F018E9124000918E9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F44065F118E9124100918E9E /* OpenAL.framework */,
+				F44065F318E9124100918E9E /* AddressBook.framework */,
+				F44065F518E9124100918E9E /* AssetsLibrary.framework */,
+				F44065F718E9124100918E9E /* CoreMedia.framework */,
+				F44065F918E9124100918E9E /* AudioToolbox.framework */,
+				F44065FB18E9124100918E9E /* AVFoundation.framework */,
+				F44065FD18E9124100918E9E /* CoreLocation.framework */,
+				F44065FF18E9124100918E9E /* MobileCoreServices.framework */,
+				F440660118E9124100918E9E /* SystemConfiguration.framework */,
+				F440660318E9124100918E9E /* AddressBookUI.framework */,
+				F440660518E9124100918E9E /* UIKit.framework */,
+				F440660718E9124100918E9E /* Foundation.framework */,
+				F440660918E9124100918E9E /* CoreGraphics.framework */,
+				F440660B18E9124100918E9E /* ImageIO.framework */,
+				F440660D18E9124100918E9E /* EventKit.framework */,
+				F440660F18E9124100918E9E /* EventKitUI.framework */,
+				F440661118E9124100918E9E /* QuartzCore.framework */,
+				F440661318E9124100918E9E /* CoreVideo.framework */,
+				F440661518E9124100918E9E /* MessageUI.framework */,
+				F440661718E9124100918E9E /* MediaPlayer.framework */,
+				F440661918E9124100918E9E /* Security.framework */,
+				F440661B18E9124100918E9E /* CoreTelephony.framework */,
+				F440661D18E9124100918E9E /* CFNetwork.framework */,
+				F440661F18E9124100918E9E /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F440662118E9124100918E9E /* TTTest */ = {
+			isa = PBXGroup;
+			children = (
+				F440668818E9124100918E9E /* config.xml */,
+				F440668D18E9124100918E9E /* MainViewController.h */,
+				F440668E18E9124100918E9E /* MainViewController.m */,
+				F440669018E9124100918E9E /* MainViewController.xib */,
+				F440676A18E9124600918E9E /* AppDelegate.h */,
+				F440676B18E9124600918E9E /* AppDelegate.m */,
+				F440676D18E9124600918E9E /* 1-57.png */,
+				F440676F18E9124600918E9E /* 1-72.png */,
+				F440677118E9124600918E9E /* 1-114.png */,
+				F440677318E9124600918E9E /* 144_144.png */,
+				F440677518E9124600918E9E /* Default-568h@2x.png */,
+				F440677718E9124600918E9E /* Default-Landscape@2x~ipad.png */,
+				F440677918E9124600918E9E /* Default-Portrait@2x~ipad.png */,
+				F440677B18E9124600918E9E /* Default.png */,
+				F440677D18E9124600918E9E /* Default@2x.png */,
+				F440662A18E9124100918E9E /* TrirdImport */,
+				F440668A18E9124100918E9E /* NSMeapLib */,
+				F440669218E9124100918E9E /* Cordova */,
+				F44066C718E9124200918E9E /* Resources */,
+				F44066EA18E9124400918E9E /* Plugins */,
+				F440678718E9495300918E9E /* Images.xcassets */,
+				F440678918E9498B00918E9E /* Images-2.xcassets */,
+				F440662218E9124100918E9E /* Supporting Files */,
+			);
+			path = TTTest;
+			sourceTree = "<group>";
+		};
+		F440662218E9124100918E9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F440662318E9124100918E9E /* TTTest-Info.plist */,
+				F440662418E9124100918E9E /* InfoPlist.strings */,
+				F440662718E9124100918E9E /* main.m */,
+				F440662918E9124100918E9E /* TTTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F440662A18E9124100918E9E /* TrirdImport */ = {
+			isa = PBXGroup;
+			children = (
+				F44066C418E9124200918E9E /* Reachability.h */,
+				F44066C518E9124200918E9E /* Reachability.m */,
+				F440662B18E9124100918E9E /* json */,
+				F440665118E9124100918E9E /* DSLCalendarView */,
+			);
+			name = TrirdImport;
+			sourceTree = "<group>";
+		};
+		F440662B18E9124100918E9E /* json */ = {
+			isa = PBXGroup;
+			children = (
+				F440662C18E9124100918E9E /* SBJson.h */,
+				F440662D18E9124100918E9E /* NSObject+SBJson.h */,
+				F440662E18E9124100918E9E /* NSObject+SBJson.m */,
+				F440663018E9124100918E9E /* SBJsonParser.h */,
+				F440663118E9124100918E9E /* SBJsonParser.m */,
+				F440663318E9124100918E9E /* SBJsonStreamParser.h */,
+				F440663418E9124100918E9E /* SBJsonStreamParser.m */,
+				F440663618E9124100918E9E /* SBJsonStreamParserAccumulator.h */,
+				F440663718E9124100918E9E /* SBJsonStreamParserAccumulator.m */,
+				F440663918E9124100918E9E /* SBJsonStreamParserAdapter.h */,
+				F440663A18E9124100918E9E /* SBJsonStreamParserAdapter.m */,
+				F440663C18E9124100918E9E /* SBJsonStreamParserState.h */,
+				F440663D18E9124100918E9E /* SBJsonStreamParserState.m */,
+				F440663F18E9124100918E9E /* SBJsonStreamWriter.h */,
+				F440664018E9124100918E9E /* SBJsonStreamWriter.m */,
+				F440664218E9124100918E9E /* SBJsonStreamWriterAccumulator.h */,
+				F440664318E9124100918E9E /* SBJsonStreamWriterAccumulator.m */,
+				F440664518E9124100918E9E /* SBJsonStreamWriterState.h */,
+				F440664618E9124100918E9E /* SBJsonStreamWriterState.m */,
+				F440664818E9124100918E9E /* SBJsonTokeniser.h */,
+				F440664918E9124100918E9E /* SBJsonTokeniser.m */,
+				F440664B18E9124100918E9E /* SBJsonUTF8Stream.h */,
+				F440664C18E9124100918E9E /* SBJsonUTF8Stream.m */,
+				F440664E18E9124100918E9E /* SBJsonWriter.h */,
+				F440664F18E9124100918E9E /* SBJsonWriter.m */,
+			);
+			name = json;
+			sourceTree = "<group>";
+		};
+		F440665118E9124100918E9E /* DSLCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				F440665218E9124100918E9E /* DSLCalendarDayCalloutView.h */,
+				F440665318E9124100918E9E /* DSLCalendarDayCalloutView.m */,
+				F440665518E9124100918E9E /* DSLCalendarDayCalloutView.xib */,
+				F440665718E9124100918E9E /* DSLCalendarDayView.h */,
+				F440665818E9124100918E9E /* DSLCalendarDayView.m */,
+				F440665A18E9124100918E9E /* DSLCalendarMonthSelectorView.h */,
+				F440665B18E9124100918E9E /* DSLCalendarMonthSelectorView.m */,
+				F440665D18E9124100918E9E /* DSLCalendarMonthSelectorView.xib */,
+				F440665F18E9124100918E9E /* DSLCalendarMonthView.h */,
+				F440666018E9124100918E9E /* DSLCalendarMonthView.m */,
+				F440666218E9124100918E9E /* DSLCalendarRange.h */,
+				F440666318E9124100918E9E /* DSLCalendarRange.m */,
+				F440666518E9124100918E9E /* DSLCalendarView.h */,
+				F440666618E9124100918E9E /* DSLCalendarView.m */,
+				F440666818E9124100918E9E /* NSDate+DSLCalendarView.h */,
+				F440666918E9124100918E9E /* NSDate+DSLCalendarView.m */,
+				F440666B18E9124100918E9E /* image */,
+			);
+			name = DSLCalendarView;
+			sourceTree = "<group>";
+		};
+		F440666B18E9124100918E9E /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F440666C18E9124100918E9E /* DSLCalendar-nextMonth.png */,
+				F440666E18E9124100918E9E /* DSLCalendar-nextMonth@2x.png */,
+				F440667018E9124100918E9E /* DSLCalendar-previousMonth.png */,
+				F440667218E9124100918E9E /* DSLCalendar-previousMonth@2x.png */,
+				F440667418E9124100918E9E /* DSLCalendarDayCallout.png */,
+				F440667618E9124100918E9E /* DSLCalendarDayCallout@2x.png */,
+				F440667818E9124100918E9E /* DSLCalendarDaySelection-left.png */,
+				F440667A18E9124100918E9E /* DSLCalendarDaySelection-left@2x.png */,
+				F440667C18E9124100918E9E /* DSLCalendarDaySelection-middle.png */,
+				F440667E18E9124100918E9E /* DSLCalendarDaySelection-middle@2x.png */,
+				F440668018E9124100918E9E /* DSLCalendarDaySelection-right.png */,
+				F440668218E9124100918E9E /* DSLCalendarDaySelection-right@2x.png */,
+				F440668418E9124100918E9E /* DSLCalendarDaySelection.png */,
+				F440668618E9124100918E9E /* DSLCalendarDaySelection@2x.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		F440668A18E9124100918E9E /* NSMeapLib */ = {
+			isa = PBXGroup;
+			children = (
+				F440668B18E9124100918E9E /* libiconv.dylib */,
+				F44066DA18E9124200918E9E /* NSMeapGeneralComponets.framework */,
+				F44066DC18E9124200918E9E /* NSMeapGeneralComponets.bundle */,
+				F44066DE18E9124200918E9E /* NSMeapBusinessComponents.framework */,
+				F44066E018E9124200918E9E /* NSMeapBusinessComponents.bundle */,
+				F44066E218E9124200918E9E /* libsqlite3.0.dylib */,
+				F44066E418E9124300918E9E /* libz.1.2.5.dylib */,
+				F44066E618E9124400918E9E /* NSMeap.framework */,
+				F44066E818E9124400918E9E /* HXiMateSDK.framework */,
+				F440676818E9124600918E9E /* libNSMeapQRCode.a */,
+				F440676518E9124400918E9E /* QRinclude */,
+			);
+			name = NSMeapLib;
+			sourceTree = "<group>";
+		};
+		F440669218E9124100918E9E /* Cordova */ = {
+			isa = PBXGroup;
+			children = (
+				F44066C218E9124200918E9E /* libCordova.a */,
+				F440669318E9124100918E9E /* include */,
+			);
+			name = Cordova;
+			sourceTree = "<group>";
+		};
+		F440669318E9124100918E9E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F440669418E9124100918E9E /* Cordova */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		F440669418E9124100918E9E /* Cordova */ = {
+			isa = PBXGroup;
+			children = (
+				F440669518E9124100918E9E /* CDV.h */,
+				F440669618E9124100918E9E /* CDVAccelerometer.h */,
+				F440669718E9124100918E9E /* CDVAvailability.h */,
+				F440669818E9124100918E9E /* CDVBattery.h */,
+				F440669918E9124100918E9E /* CDVCamera.h */,
+				F440669A18E9124100918E9E /* CDVCapture.h */,
+				F440669B18E9124100918E9E /* CDVCommandDelegate.h */,
+				F440669C18E9124100918E9E /* CDVCommandDelegateImpl.h */,
+				F440669D18E9124100918E9E /* CDVCommandQueue.h */,
+				F440669E18E9124100918E9E /* CDVConfigParser.h */,
+				F440669F18E9124100918E9E /* CDVConnection.h */,
+				F44066A018E9124100918E9E /* CDVContact.h */,
+				F44066A118E9124100918E9E /* CDVContacts.h */,
+				F44066A218E9124100918E9E /* CDVDebug.h */,
+				F44066A318E9124100918E9E /* CDVDevice.h */,
+				F44066A418E9124100918E9E /* CDVEcho.h */,
+				F44066A518E9124100918E9E /* CDVExif.h */,
+				F44066A618E9124100918E9E /* CDVFile.h */,
+				F44066A718E9124100918E9E /* CDVFileTransfer.h */,
+				F44066A818E9124100918E9E /* CDVGlobalization.h */,
+				F44066A918E9124100918E9E /* CDVInAppBrowser.h */,
+				F44066AA18E9124100918E9E /* CDVInvokedUrlCommand.h */,
+				F44066AB18E9124100918E9E /* CDVJpegHeaderWriter.h */,
+				F44066AC18E9124100918E9E /* CDVJSON.h */,
+				F44066AD18E9124100918E9E /* CDVLocalStorage.h */,
+				F44066AE18E9124100918E9E /* CDVLocation.h */,
+				F44066AF18E9124100918E9E /* CDVLogger.h */,
+				F44066B018E9124100918E9E /* CDVNotification.h */,
+				F44066B118E9124100918E9E /* CDVPlugin.h */,
+				F44066B218E9124100918E9E /* CDVPluginResult.h */,
+				F44066B318E9124100918E9E /* CDVReachability.h */,
+				F44066B418E9124100918E9E /* CDVScreenOrientationDelegate.h */,
+				F44066B518E9124100918E9E /* CDVSound.h */,
+				F44066B618E9124100918E9E /* CDVSplashScreen.h */,
+				F44066B718E9124100918E9E /* CDVTimer.h */,
+				F44066B818E9124100918E9E /* CDVURLProtocol.h */,
+				F44066B918E9124100918E9E /* CDVUserAgentUtil.h */,
+				F44066BA18E9124100918E9E /* CDVViewController.h */,
+				F44066BB18E9124100918E9E /* CDVWebViewDelegate.h */,
+				F44066BC18E9124100918E9E /* CDVWhitelist.h */,
+				F44066BD18E9124100918E9E /* NSArray+Comparisons.h */,
+				F44066BE18E9124100918E9E /* NSData+Base64.h */,
+				F44066BF18E9124100918E9E /* NSDictionary+Extensions.h */,
+				F44066C018E9124100918E9E /* NSMutableArray+QueueAdditions.h */,
+				F44066C118E9124100918E9E /* UIDevice+Extensions.h */,
+			);
+			name = Cordova;
+			sourceTree = "<group>";
+		};
+		F44066C718E9124200918E9E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F44066D818E9124200918E9E /* Capture.bundle */,
+				F44066C818E9124200918E9E /* en.lproj */,
+				F44066CC18E9124200918E9E /* es.lproj */,
+				F44066D018E9124200918E9E /* de.lproj */,
+				F44066D418E9124200918E9E /* se.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F44066C818E9124200918E9E /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F44066C918E9124200918E9E /* Localizable.strings */,
+			);
+			name = en.lproj;
+			sourceTree = "<group>";
+		};
+		F44066CC18E9124200918E9E /* es.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F44066CD18E9124200918E9E /* Localizable.strings */,
+			);
+			name = es.lproj;
+			sourceTree = "<group>";
+		};
+		F44066D018E9124200918E9E /* de.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F44066D118E9124200918E9E /* Localizable.strings */,
+			);
+			name = de.lproj;
+			sourceTree = "<group>";
+		};
+		F44066D418E9124200918E9E /* se.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F44066D518E9124200918E9E /* Localizable.strings */,
+			);
+			name = se.lproj;
+			sourceTree = "<group>";
+		};
+		F44066EA18E9124400918E9E /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				F44066EB18E9124400918E9E /* NSMeapCalendarPlugin.h */,
+				F44066EC18E9124400918E9E /* NSMeapCalendarPlugin.m */,
+				F44066EE18E9124400918E9E /* NSMeapQRCodePlugin.h */,
+				F44066EF18E9124400918E9E /* NSMeapQRCodePlugin.m */,
+				F44066F118E9124400918E9E /* NSMeapCheckAppUpdatePlugin.h */,
+				F44066F218E9124400918E9E /* NSMeapCheckAppUpdatePlugin.m */,
+				F44066F418E9124400918E9E /* NSMeapCheckWebUpdatePlugin.h */,
+				F44066F518E9124400918E9E /* NSMeapCheckWebUpdatePlugin.m */,
+				F44066F718E9124400918E9E /* NSMeapConfigIPPlugin.h */,
+				F44066F818E9124400918E9E /* NSMeapConfigIPPlugin.m */,
+				F44066FA18E9124400918E9E /* NSMeapDataSecurityPlugin.h */,
+				F44066FB18E9124400918E9E /* NSMeapDataSecurityPlugin.m */,
+				F44066FD18E9124400918E9E /* NSMeapDatePickerPlugin.h */,
+				F44066FE18E9124400918E9E /* NSMeapDatePickerPlugin.m */,
+				F440670018E9124400918E9E /* NSMeapFileManagerPlugin.h */,
+				F440670118E9124400918E9E /* NSMeapFileManagerPlugin.m */,
+				F440670318E9124400918E9E /* NSMeapGetCaptchaPlugin.h */,
+				F440670418E9124400918E9E /* NSMeapGetCaptchaPlugin.m */,
+				F440670618E9124400918E9E /* NSMeapIMatePlugin.h */,
+				F440670718E9124400918E9E /* NSMeapIMatePlugin.m */,
+				F440670918E9124400918E9E /* NSMeapSSOServerPlugin.h */,
+				F440670A18E9124400918E9E /* NSMeapSSOServerPlugin.m */,
+				F440670C18E9124400918E9E /* NSMeapMediaPlugin.h */,
+				F440670D18E9124400918E9E /* NSMeapMediaPlugin.m */,
+				F440670F18E9124400918E9E /* NSMeapMessagePlugin.h */,
+				F440671018E9124400918E9E /* NSMeapMessagePlugin.m */,
+				F440671218E9124400918E9E /* NSMeapNetworkStatusPlugin.h */,
+				F440671318E9124400918E9E /* NSMeapNetworkStatusPlugin.m */,
+				F440671518E9124400918E9E /* NSMeapScanBigImagePlugin.h */,
+				F440671618E9124400918E9E /* NSMeapScanBigImagePlugin.m */,
+				F440671818E9124400918E9E /* NSMeapTelPhonePlugin.h */,
+				F440671918E9124400918E9E /* NSMeapTelPhonePlugin.m */,
+				F440671B18E9124400918E9E /* NSMeapWebRequestPlugin.h */,
+				F440671C18E9124400918E9E /* NSMeapWebRequestPlugin.m */,
+				F440671E18E9124400918E9E /* NSMeapZipPlugin.h */,
+				F440671F18E9124400918E9E /* NSMeapZipPlugin.m */,
+				F440672118E9124400918E9E /* NSMeapWebViewServerPlugin.h */,
+				F440672218E9124400918E9E /* NSMeapWebViewServerPlugin.m */,
+				F440673118E9124400918E9E /* NSMeapScreemTimerPlugin.h */,
+				F440673218E9124400918E9E /* NSMeapScreemTimerPlugin.m */,
+				F440673418E9124400918E9E /* NSMeapJumpAPPPlugin.h */,
+				F440673518E9124400918E9E /* NSMeapJumpAPPPlugin.m */,
+				F440673718E9124400918E9E /* NSMeapInstallAPPPlugin.h */,
+				F440673818E9124400918E9E /* NSMeapInstallAPPPlugin.m */,
+				F440673A18E9124400918E9E /* NSMeapScanOfficeFilePlugin.h */,
+				F440673B18E9124400918E9E /* NSMeapScanOfficeFilePlugin.m */,
+				F440673D18E9124400918E9E /* NSMeapEditOfficeFilePlugin.h */,
+				F440673E18E9124400918E9E /* NSMeapEditOfficeFilePlugin.m */,
+				F440674018E9124400918E9E /* NSMeapCheckAPPExistPlugin.h */,
+				F440674118E9124400918E9E /* NSMeapCheckAPPExistPlugin.m */,
+				F440674318E9124400918E9E /* NSMeapKillAPPPlugin.h */,
+				F440674418E9124400918E9E /* NSMeapKillAPPPlugin.m */,
+				F440674618E9124400918E9E /* NSMeapScreenResolutionPlugin.h */,
+				F440674718E9124400918E9E /* NSMeapScreenResolutionPlugin.m */,
+				F440674918E9124400918E9E /* NSMeapCallJsMethod.h */,
+				F440674A18E9124400918E9E /* NSMeapCallJsMethod.m */,
+				F440672418E9124400918E9E /* Events */,
+				F440674C18E9124400918E9E /* NSMeapLockPlugin */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+		F440672418E9124400918E9E /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				F440672518E9124400918E9E /* NSMeapBeanEventPlugin.h */,
+				F440672618E9124400918E9E /* NSMeapBeanEventPlugin.m */,
+				F440672818E9124400918E9E /* NSMeapBytesEventPlugin.h */,
+				F440672918E9124400918E9E /* NSMeapBytesEventPlugin.m */,
+				F440672B18E9124400918E9E /* NSMeapMapEventPlugin.h */,
+				F440672C18E9124400918E9E /* NSMeapMapEventPlugin.m */,
+				F440672E18E9124400918E9E /* NSMeapTextEventPlugin.h */,
+				F440672F18E9124400918E9E /* NSMeapTextEventPlugin.m */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		F440674C18E9124400918E9E /* NSMeapLockPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				F440674D18E9124400918E9E /* NSMeapPasswordLockPlugin.h */,
+				F440674E18E9124400918E9E /* NSMeapPasswordLockPlugin.m */,
+				F440675018E9124400918E9E /* View */,
+			);
+			name = NSMeapLockPlugin;
+			sourceTree = "<group>";
+		};
+		F440675018E9124400918E9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F440675118E9124400918E9E /* CheckViewController.h */,
+				F440675218E9124400918E9E /* CheckViewController.m */,
+				F440675418E9124400918E9E /* CheckViewController.xib */,
+				F440675618E9124400918E9E /* LockViewController.h */,
+				F440675718E9124400918E9E /* LockViewController.m */,
+				F440675918E9124400918E9E /* LockViewController.xib */,
+				F440675B18E9124400918E9E /* MJPasswordView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F440675B18E9124400918E9E /* MJPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				F440675C18E9124400918E9E /* MJCircleLayer.h */,
+				F440675D18E9124400918E9E /* MJCircleLayer.m */,
+				F440675F18E9124400918E9E /* MJPasswordView.h */,
+				F440676018E9124400918E9E /* MJPasswordView.m */,
+				F440676218E9124400918E9E /* MJPathLayer.h */,
+				F440676318E9124400918E9E /* MJPathLayer.m */,
+			);
+			name = MJPasswordView;
+			sourceTree = "<group>";
+		};
+		F440676518E9124400918E9E /* QRinclude */ = {
+			isa = PBXGroup;
+			children = (
+				F440676618E9124400918E9E /* NSMeapQRCode.h */,
+				F440676718E9124400918E9E /* NSMeapQRView.h */,
+			);
+			name = QRinclude;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F44065ED18E9124000918E9E /* TTTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F440678118E9124600918E9E /* Build configuration list for PBXNativeTarget "TTTest" */;
+			buildPhases = (
+				F44065E818E9124000918E9E /* Sources */,
+				F44065E918E9124000918E9E /* Frameworks */,
+				F44065EA18E9124000918E9E /* Resources */,
+				F44065EB18E9124000918E9E /* Sources */,
+				F44065EC18E9124000918E9E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTTest;
+			productName = TTTest;
+			productReference = F44065EE18E9124000918E9E /* TTTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F44065E418E9124000918E9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Simon;
+				TargetAttributes = {
+					F44065ED18E9124000918E9E = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F44065E718E9124000918E9E /* Build configuration list for PBXProject "TTTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+				de,
+				se,
+			);
+			mainGroup = F44065E318E9124000918E9E;
+			productRefGroup = F44065EF18E9124000918E9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F44065ED18E9124000918E9E /* TTTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F44065EA18E9124000918E9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F440665E18E9124100918E9E /* DSLCalendarMonthSelectorView.xib in Resources */,
+				F440668718E9124100918E9E /* DSLCalendarDaySelection@2x.png in Resources */,
+				F44066D918E9124200918E9E /* Capture.bundle in Resources */,
+				F440678818E9495300918E9E /* Images.xcassets in Resources */,
+				F440677818E9124600918E9E /* Default-Landscape@2x~ipad.png in Resources */,
+				F440676E18E9124600918E9E /* 1-57.png in Resources */,
+				F44066D718E9124200918E9E /* Localizable.strings in Resources */,
+				F440667718E9124100918E9E /* DSLCalendarDayCallout@2x.png in Resources */,
+				F440668118E9124100918E9E /* DSLCalendarDaySelection-right.png in Resources */,
+				F440668318E9124100918E9E /* DSLCalendarDaySelection-right@2x.png in Resources */,
+				F440677218E9124600918E9E /* 1-114.png in Resources */,
+				F440675A18E9124400918E9E /* LockViewController.xib in Resources */,
+				F44066CB18E9124200918E9E /* Localizable.strings in Resources */,
+				F440669118E9124100918E9E /* MainViewController.xib in Resources */,
+				F440667F18E9124100918E9E /* DSLCalendarDaySelection-middle@2x.png in Resources */,
+				F440677018E9124600918E9E /* 1-72.png in Resources */,
+				F440667118E9124100918E9E /* DSLCalendar-previousMonth.png in Resources */,
+				F440677418E9124600918E9E /* 144_144.png in Resources */,
+				F440678A18E9498B00918E9E /* Images-2.xcassets in Resources */,
+				F440667B18E9124100918E9E /* DSLCalendarDaySelection-left@2x.png in Resources */,
+				F440678518E9126600918E9E /* www in Resources */,
+				F44066CF18E9124200918E9E /* Localizable.strings in Resources */,
+				F440677E18E9124600918E9E /* Default@2x.png in Resources */,
+				F440677C18E9124600918E9E /* Default.png in Resources */,
+				F440667318E9124100918E9E /* DSLCalendar-previousMonth@2x.png in Resources */,
+				F440667518E9124100918E9E /* DSLCalendarDayCallout.png in Resources */,
+				F440675518E9124400918E9E /* CheckViewController.xib in Resources */,
+				F44066D318E9124200918E9E /* Localizable.strings in Resources */,
+				F440665618E9124100918E9E /* DSLCalendarDayCalloutView.xib in Resources */,
+				F440677618E9124600918E9E /* Default-568h@2x.png in Resources */,
+				F440667918E9124100918E9E /* DSLCalendarDaySelection-left.png in Resources */,
+				F440662618E9124100918E9E /* InfoPlist.strings in Resources */,
+				F440666D18E9124100918E9E /* DSLCalendar-nextMonth.png in Resources */,
+				F440667D18E9124100918E9E /* DSLCalendarDaySelection-middle.png in Resources */,
+				F440668918E9124100918E9E /* config.xml in Resources */,
+				F440666F18E9124100918E9E /* DSLCalendar-nextMonth@2x.png in Resources */,
+				F440677A18E9124600918E9E /* Default-Portrait@2x~ipad.png in Resources */,
+				F44066E118E9124200918E9E /* NSMeapBusinessComponents.bundle in Resources */,
+				F44066DD18E9124200918E9E /* NSMeapGeneralComponets.bundle in Resources */,
+				F440668518E9124100918E9E /* DSLCalendarDaySelection.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F44065E818E9124000918E9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F440670B18E9124400918E9E /* NSMeapSSOServerPlugin.m in Sources */,
+				F440663818E9124100918E9E /* SBJsonStreamParserAccumulator.m in Sources */,
+				F440665918E9124100918E9E /* DSLCalendarDayView.m in Sources */,
+				F440665018E9124100918E9E /* SBJsonWriter.m in Sources */,
+				F440675818E9124400918E9E /* LockViewController.m in Sources */,
+				F440676118E9124400918E9E /* MJPasswordView.m in Sources */,
+				F440670518E9124400918E9E /* NSMeapGetCaptchaPlugin.m in Sources */,
+				F44066F618E9124400918E9E /* NSMeapCheckWebUpdatePlugin.m in Sources */,
+				F440673F18E9124400918E9E /* NSMeapEditOfficeFilePlugin.m in Sources */,
+				F440665418E9124100918E9E /* DSLCalendarDayCalloutView.m in Sources */,
+				F440668F18E9124100918E9E /* MainViewController.m in Sources */,
+				F44066FC18E9124400918E9E /* NSMeapDataSecurityPlugin.m in Sources */,
+				F44066FF18E9124400918E9E /* NSMeapDatePickerPlugin.m in Sources */,
+				F440663218E9124100918E9E /* SBJsonParser.m in Sources */,
+				F440671718E9124400918E9E /* NSMeapScanBigImagePlugin.m in Sources */,
+				F440675318E9124400918E9E /* CheckViewController.m in Sources */,
+				F440663E18E9124100918E9E /* SBJsonStreamParserState.m in Sources */,
+				F440662F18E9124100918E9E /* NSObject+SBJson.m in Sources */,
+				F440673C18E9124400918E9E /* NSMeapScanOfficeFilePlugin.m in Sources */,
+				F440673918E9124400918E9E /* NSMeapInstallAPPPlugin.m in Sources */,
+				F440670E18E9124400918E9E /* NSMeapMediaPlugin.m in Sources */,
+				F440676418E9124400918E9E /* MJPathLayer.m in Sources */,
+				F44066F018E9124400918E9E /* NSMeapQRCodePlugin.m in Sources */,
+				F440662818E9124100918E9E /* main.m in Sources */,
+				F440665C18E9124100918E9E /* DSLCalendarMonthSelectorView.m in Sources */,
+				F440674B18E9124400918E9E /* NSMeapCallJsMethod.m in Sources */,
+				F440666A18E9124100918E9E /* NSDate+DSLCalendarView.m in Sources */,
+				F44066F918E9124400918E9E /* NSMeapConfigIPPlugin.m in Sources */,
+				F440670818E9124400918E9E /* NSMeapIMatePlugin.m in Sources */,
+				F440674518E9124400918E9E /* NSMeapKillAPPPlugin.m in Sources */,
+				F440673318E9124400918E9E /* NSMeapScreemTimerPlugin.m in Sources */,
+				F440663518E9124100918E9E /* SBJsonStreamParser.m in Sources */,
+				F440674818E9124400918E9E /* NSMeapScreenResolutionPlugin.m in Sources */,
+				F440663B18E9124100918E9E /* SBJsonStreamParserAdapter.m in Sources */,
+				F440670218E9124400918E9E /* NSMeapFileManagerPlugin.m in Sources */,
+				F440672D18E9124400918E9E /* NSMeapMapEventPlugin.m in Sources */,
+				F440666718E9124100918E9E /* DSLCalendarView.m in Sources */,
+				F440674218E9124400918E9E /* NSMeapCheckAPPExistPlugin.m in Sources */,
+				F440672718E9124400918E9E /* NSMeapBeanEventPlugin.m in Sources */,
+				F440673618E9124400918E9E /* NSMeapJumpAPPPlugin.m in Sources */,
+				F440671D18E9124400918E9E /* NSMeapWebRequestPlugin.m in Sources */,
+				F440672018E9124400918E9E /* NSMeapZipPlugin.m in Sources */,
+				F440671118E9124400918E9E /* NSMeapMessagePlugin.m in Sources */,
+				F44066F318E9124400918E9E /* NSMeapCheckAppUpdatePlugin.m in Sources */,
+				F44066C618E9124200918E9E /* Reachability.m in Sources */,
+				F440666418E9124100918E9E /* DSLCalendarRange.m in Sources */,
+				F440676C18E9124600918E9E /* AppDelegate.m in Sources */,
+				F440664118E9124100918E9E /* SBJsonStreamWriter.m in Sources */,
+				F440666118E9124100918E9E /* DSLCalendarMonthView.m in Sources */,
+				F440664418E9124100918E9E /* SBJsonStreamWriterAccumulator.m in Sources */,
+				F440671418E9124400918E9E /* NSMeapNetworkStatusPlugin.m in Sources */,
+				F440675E18E9124400918E9E /* MJCircleLayer.m in Sources */,
+				F440671A18E9124400918E9E /* NSMeapTelPhonePlugin.m in Sources */,
+				F440664A18E9124100918E9E /* SBJsonTokeniser.m in Sources */,
+				F440673018E9124400918E9E /* NSMeapTextEventPlugin.m in Sources */,
+				F440672318E9124400918E9E /* NSMeapWebViewServerPlugin.m in Sources */,
+				F440672A18E9124400918E9E /* NSMeapBytesEventPlugin.m in Sources */,
+				F440674F18E9124400918E9E /* NSMeapPasswordLockPlugin.m in Sources */,
+				F440664718E9124100918E9E /* SBJsonStreamWriterState.m in Sources */,
+				F440664D18E9124100918E9E /* SBJsonUTF8Stream.m in Sources */,
+				F44066ED18E9124400918E9E /* NSMeapCalendarPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44065EB18E9124000918E9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F440662418E9124100918E9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F440662518E9124100918E9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F44066C918E9124200918E9E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44066CA18E9124200918E9E /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F44066CD18E9124200918E9E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44066CE18E9124200918E9E /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F44066D118E9124200918E9E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44066D218E9124200918E9E /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F44066D518E9124200918E9E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44066D618E9124200918E9E /* se */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F440677F18E9124600918E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/$(PRODUCT_NAME)/include/";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		F440678018E9124600918E9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/$(PRODUCT_NAME)/include/";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		F440678218E9124600918E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TTTest/NSMeapLib",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTTest/TTTest-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "TTTest/TTTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TTTest/Cordova",
+					"$(PROJECT_DIR)/TTTest/NSMeapLib",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "357ED8B2-CCF8-49DE-BC59-C6675D79390A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F440678318E9124600918E9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TTTest/NSMeapLib",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTTest/TTTest-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "TTTest/TTTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TTTest/Cordova",
+					"$(PROJECT_DIR)/TTTest/NSMeapLib",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "357ED8B2-CCF8-49DE-BC59-C6675D79390A";
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F44065E718E9124000918E9E /* Build configuration list for PBXProject "TTTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F440677F18E9124600918E9E /* Debug */,
+				F440678018E9124600918E9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F440678118E9124600918E9E /* Build configuration list for PBXNativeTarget "TTTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F440678218E9124600918E9E /* Debug */,
+				F440678318E9124600918E9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F44065E418E9124000918E9E /* Project object */;
+}
